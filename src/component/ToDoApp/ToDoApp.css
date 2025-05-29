@@ -1,0 +1,40 @@
+.showBtn{
+    display: none!important;
+}
+
+.show{
+    cursor: pointer;
+}
+
+.show:hover .showBtn{
+    display: block!important;
+}
+
+.filter{
+    column-gap:10px;
+}
+
+.showFilter{
+    color:orange;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.all{
+    color:green;
+    cursor: pointer;
+}
+
+.active{
+    color:blue;
+    cursor: pointer;
+}
+
+.completed{
+    color:black;
+    cursor: pointer;
+}
+
+.active-filter{
+    text-decoration: underline;
+}
